@@ -1,0 +1,54 @@
+.game {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+.score {
+  /* margin-top: 20px; */
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  padding: 10px 30px;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.container {
+  background-color: #282c34;
+}
+
+.move {
+  font-style: italic;
+  color: yellow;
+}
+
+h2 {
+  font-style: italic;
+}
+
+button {
+  background-color: whitesmoke;
+  color: #282c34;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: large;
+  border-width: 0;
+}
